@@ -1,0 +1,11 @@
+{
+  "name": "layout",
+  "version": "0.0.0",
+  "description": "CSS layout with cssnext and postcss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dane Petersen",
+  "license": "MIT"
+}
