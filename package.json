@@ -1,15 +1,33 @@
 {
   "name": "css-layout",
-  "version": "0.0.0",
   "description": "CSS layout with PostCSS and cssnext",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "version": "0.0.0",
+  "homepage": "https://github.com/thegreatsunra/css-layout",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegreatsunra/css-layout.git"
   },
-  "author": "Dane Petersen",
+  "bugs": {
+    "url": "https://github.com/thegreatsunra/css-layout/issues"
+  },
+  "author": "Dane Petersen <thegreatsunra@gmail.com>",
   "license": "MIT",
-  "dependencies": {
+  "contributors": [
+    {
+      "name": "Dane Petersen",
+      "email": "thegreatsunra@gmail.com",
+      "url": "https://github.com/thegreatsunra"
+    }
+  ],
+  "engines": {
+    "node": ">= 8.1.0",
+    "npm": ">= 5.0.3"
+  },
+  "devDependencies": {
     "postcss": "^6.0.17",
     "postcss-cssnext": "^3.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
