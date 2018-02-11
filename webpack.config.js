@@ -11,6 +11,41 @@ module.exports = {
   },
   module: {
     rules: [
+      {
+        test: /index\.html$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]'
+            }
+          },
+          {
+            loader: 'extract-loader'
+          },
+          {
+            loader: 'html-loader',
+            options: {
+              attrs: ['img:src', 'link:href'],
+              interpolate: true
+            }
+          }
+        ]
+      },
+      {
+        test: /\.css$/,
+        loaders: [
+          {
+            loader: 'file-loader'
+          },
+          {
+            loader: 'extract-loader'
+          },
+          {
+            loader: 'css-loader'
+          }
+        ]
+      }
     ]
   }
 }
