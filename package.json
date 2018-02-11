@@ -1,7 +1,7 @@
 {
-  "name": "layout",
+  "name": "css-layout",
   "version": "0.0.0",
-  "description": "CSS layout with cssnext and postcss",
+  "description": "CSS layout with PostCSS and cssnext",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
