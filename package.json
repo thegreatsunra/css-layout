@@ -46,6 +46,6 @@
     "build": "webpack -p",
     "dev": "webpack-dev-server",
     "lint": "eslint --ext .js *.config* src --fix",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
