@@ -43,9 +43,9 @@
     "webpack-dev-server": "^2.11.1"
   },
   "scripts": {
+    "build": "webpack -p",
     "dev": "webpack-dev-server",
     "lint": "eslint --ext .js *.config* src --fix",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
   }
 }
