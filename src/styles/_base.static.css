@@ -1,0 +1,6 @@
+:root {
+  --base-static-folder: '../static';
+  --base-images-folder: var(--base-static-folder) + '/images';
+  --base-logo: var(--base-images-folder) + '/logo';
+  --base-logo-png: var(--base-logo) + '.png';
+}
