@@ -38,5 +38,7 @@ module.exports = {
     }),
     new ExtractTextPlugin('index.bundle.css')
   ],
+  devServer: {
+    contentBase: path.resolve(__dirname, 'src')
   }
 }
