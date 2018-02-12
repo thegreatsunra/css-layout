@@ -1,0 +1,6 @@
+@import '_base.font.css';
+
+code,
+pre {
+  font-family: var(--base-font-family-monospace);
+}
