@@ -1,6 +1,7 @@
 @import "normalize.css";
+@import "_base.color.css";
 @import "_elements.h1.css";
 
 * {
-  color: red;
+  color: var(--red);
 }
