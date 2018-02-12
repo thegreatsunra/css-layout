@@ -9,22 +9,14 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /index\.html$/,
+        test: /\.html$/,
         use: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: '[name].[ext]'
-            }
-          },
-          {
-            loader: 'extract-loader'
-          },
           {
             loader: 'html-loader',
             options: {
-              attrs: ['img:src', 'link:href'],
-              interpolate: true
+              minimize: true,
+              removeComments: true,
+              collapseWhitespace: true
             }
           }
         ]
