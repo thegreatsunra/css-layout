@@ -1,6 +1,7 @@
 const path = require('path')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.js'),
@@ -80,7 +81,15 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: path.resolve(__dirname, 'src/index.html')
     }),
-    new ExtractTextPlugin('index.bundle.css')
+    new ExtractTextPlugin('index.bundle.css'),
+    // brute-force copy <head> icons until we figure out something smarter
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, 'src/assets/images/icons'),
+        to: path.resolve(__dirname, 'dist/images/icons'),
+        ignore: ['.*']
+      }
+    ])
   ],
   devServer: {
     contentBase: path.resolve(__dirname, 'src')
