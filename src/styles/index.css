@@ -3,13 +3,8 @@
 @import "_base.font.css";
 @import "_base.spacing.css";
 @import "_base.static.css";
-@import "_elements.h1.css";
 @import "_elements.code.css";
 @import "_elements.global.css";
 @import "_elements.heading.css";
 @import "_elements.html.css";
 @import "_elements.link.css";
-
-* {
-  color: var(--red);
-}
