@@ -91,6 +91,12 @@ module.exports = {
         to: path.resolve(__dirname, 'dist/images/icons'),
         ignore: ['.*']
       }
+    ]),
+    new CopyWebpackPlugin([
+      {
+        from: path.resolve(__dirname, 'src/assets/manifest.json'),
+        to: path.resolve(__dirname, 'dist')
+      }
     ])
   ],
   devServer: {
