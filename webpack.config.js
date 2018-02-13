@@ -79,7 +79,9 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: path.resolve(__dirname, 'src/index.html')
+      filename: 'index.html',
+      template: path.resolve(__dirname, 'src/index.html'),
+      inject: true
     }),
     new ExtractTextPlugin('index.bundle.css'),
     // brute-force copy <head> icons until we figure out something smarter
