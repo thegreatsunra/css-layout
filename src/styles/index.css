@@ -11,3 +11,12 @@
 @import "_elements.heading.css";
 @import "_elements.html.css";
 @import "_elements.link.css";
+
+.image {
+  background: transparent url('../assets/images/logo.png') 0 0 no-repeat;
+  height: 200px;
+  width: 200px;
+  display: block;
+  color: red;
+}
+
