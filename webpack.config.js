@@ -9,6 +9,12 @@ module.exports = {
     filename: 'index.bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
+  resolve: {
+    extensions: ['.js', '.vue', '.json'],
+    alias: {
+      'vue$': 'vue/dist/vue.esm.js'
+    }
+  },
   module: {
     rules: [
       {
@@ -31,6 +37,18 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['es2015']
+          }
+        }
+      },
+      {
+        test: /\.vue$/,
+        loader: 'vue-loader',
+        options: {
+          transformToRequire: {
+            video: ['src', 'poster'],
+            source: 'src',
+            img: 'src',
+            image: 'xlink:href'
           }
         }
       },
