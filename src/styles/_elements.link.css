@@ -1,0 +1,10 @@
+@import '_base.color.css';
+
+a {
+  transition: color 250ms ease-out;
+  color: var(--blue);
+  text-decoration: underline;
+  &:hover {
+    color: var(--dark-blue);
+  }
+}

@@ -1,0 +1,20 @@
+@import '_base.font.css';
+
+:root {
+  --select: {
+    font-size: var(--base-font-size);
+    font-family: var(--base-font-family);
+    & :hover {
+      cursor: pointer;
+    }
+  };
+}
+
+select {
+  @apply select;
+}
+
+/*
+input:not([type=submit]):not([type=file]) {
+}
+*/
