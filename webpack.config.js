@@ -102,6 +102,8 @@ module.exports = {
       template: path.resolve(__dirname, 'src/index.html'),
       inject: true
     }),
+    // enable scope hoisting
+    new webpack.optimize.ModuleConcatenationPlugin(),
     new ExtractTextPlugin('[name].[contenthash:7].css'),
     // brute-force copy <head> icons until we figure out something smarter
     new CopyWebpackPlugin([
