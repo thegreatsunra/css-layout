@@ -4,9 +4,9 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 module.exports = {
-  entry: path.resolve(__dirname, 'src/index.js'),
+  entry: path.resolve(__dirname, 'src/main.js'),
   output: {
-    filename: 'index.bundle.js',
+    filename: '[name].[chunkhash:7].js',
     path: path.resolve(__dirname, 'dist')
   },
   resolve: {
@@ -101,7 +101,7 @@ module.exports = {
       template: path.resolve(__dirname, 'src/index.html'),
       inject: true
     }),
-    new ExtractTextPlugin('index.bundle.css'),
+    new ExtractTextPlugin('[name].[contenthash:7].css'),
     // brute-force copy <head> icons until we figure out something smarter
     new CopyWebpackPlugin([
       {

@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 import App from './App.vue'
-import css from './styles/index.css'
+import css from './styles/main.css'
 // import js from './scripts/index.js'
 import router from './router'
 
