@@ -1,7 +1,7 @@
 {
   "name": "css-layout",
-  "description": "CSS layout with PostCSS and cssnext",
   "version": "0.1.0",
+  "description": "CSS layout with Sass, Webpack and Vue",
   "homepage": "https://github.com/thegreatsunra/css-layout",
   "repository": {
     "type": "git",
