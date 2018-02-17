@@ -1,7 +1,7 @@
 {
   "name": "css-layout",
-  "version": "0.1.0",
   "description": "CSS layout with Sass, Webpack and Vue",
+  "version": "0.2.0",
   "homepage": "https://github.com/thegreatsunra/css-layout",
   "repository": {
     "type": "git",
