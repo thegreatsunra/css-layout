@@ -108,6 +108,8 @@ module.exports = {
         // more options:
         // https://github.com/kangax/html-minifier#options-quick-reference
       },
+      // necessary to consistently work with multiple chunks via CommonsChunkPlugin
+      chunksSortMode: 'dependency'
     }),
     // enable scope hoisting
     new webpack.optimize.ModuleConcatenationPlugin(),
