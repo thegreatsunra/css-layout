@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>css-layout</h1>
     <!-- <img class="zomgimage" src="assets/images/logo.png"> -->
     <router-view/>
   </div>
