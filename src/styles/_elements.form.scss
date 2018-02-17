@@ -1,0 +1,18 @@
+@import 'base.font';
+
+@mixin select {
+  font-size: $base-font-size;
+  font-family: $base-font-family;
+  & :hover {
+    cursor: pointer;
+  }
+}
+
+select {
+  @include select;
+}
+
+/*
+input:not([type=submit]):not([type=file]) {
+}
+*/

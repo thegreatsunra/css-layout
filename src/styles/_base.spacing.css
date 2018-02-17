@@ -1,8 +1,0 @@
-:root {
-  --base-spacing-unit:       16px;
-
-  --base-spacing-unit--xs:   round(var(--base-spacing-unit * 0.25));
-  --base-spacing-unit--sm:   round(var(--base-spacing-unit * 0.5));
-  --base-spacing-unit--lg:   round(var(--base-spacing-unit * 2));
-  --base-spacing-unit--xl:   round(var(--base-spacing-unit * 4));
-}

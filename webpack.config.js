@@ -56,20 +56,23 @@ module.exports = {
         }
       },
       {
-        test: /\.css$/,
+        test: /\.scss$/,
         use: ExtractTextPlugin.extract({
-          fallback: [{
-            loader: 'style-loader'
-          }],
-          use: [{
-            loader: 'css-loader',
-            options: {
-              modules: false,
-              importLoaders: 1
+          fallback: 'style-loader',
+          use: [
+            {
+              loader: 'css-loader',
+              options: {
+                importLoaders: 1
+              }
+            },
+            {
+              loader: 'postcss-loader'
+            },
+            {
+              loader: 'sass-loader'
             }
-          }, {
-            loader: 'postcss-loader'
-          }]
+          ]
         })
       },
       {
