@@ -1,4 +1,4 @@
-/* apply a natural box layout model to all elements, but allow components to change */
+// apply a natural box layout model to all elements, but allow components to change
 html {
   box-sizing: border-box;
 }
@@ -7,7 +7,7 @@ html {
   box-sizing: inherit;
 }
 
-/* prevent border around focused buttons */
+// prevent border around focused buttons
 :focus {
   outline: none;
 }
