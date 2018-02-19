@@ -1,21 +1,21 @@
-@import "~normalize.css";
-@import "base.color";
-@import "base.font";
-@import "base.roboto";
-@import "base.roboto-mono";
-@import "base.spacing";
-@import "base.static";
-@import "elements.code";
-@import "elements.form";
-@import "elements.global";
-@import "elements.heading";
-@import "elements.html";
-@import "elements.link";
+@import '~normalize.css';
 
-.image {
-  background: transparent url('../assets/images/logo.png') 0 0 no-repeat;
-  height: 200px;
-  width: 200px;
-  display: block;
-  color: red;
-}
+@import 'base.color';
+@import 'base.font';
+@import 'base.roboto';
+@import 'base.roboto-mono';
+@import 'base.spacing';
+@import 'base.static';
+
+@import 'elements.code';
+@import 'elements.form';
+@import 'elements.global';
+@import 'elements.heading';
+@import 'elements.html';
+@import 'elements.link';
+
+@import 'components.app';
+@import 'components.button';
+@import 'components.form';
+@import 'components.hr';
+@import 'components.view';
