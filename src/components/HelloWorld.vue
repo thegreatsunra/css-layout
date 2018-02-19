@@ -2,6 +2,61 @@
   <div class="view">
     <h1>Hello World</h1>
     <p>{{ msg }}</p>
+
+    <p>
+      <input type="submit" value="Button" class="btn btn--xs">
+      <input type="submit" value="Button" class="btn btn--xs btn--primary">
+      <input type="submit" value="Button" class="btn btn--xs btn--success">
+      <input type="submit" value="Button" class="btn btn--xs btn--warning">
+      <input type="submit" value="Button" class="btn btn--xs btn--danger">
+      <input type="submit" value="Button" class="btn btn--xs btn--inverse">
+    </p>
+
+    <p>
+      <button class="btn btn--xs">Button</button>
+      <button class="btn btn--xs btn--primary">Button</button>
+      <button class="btn btn--xs btn--success">Button</button>
+      <button class="btn btn--xs btn--warning">Button</button>
+      <button class="btn btn--xs btn--danger">Button</button>
+      <button class="btn btn--xs btn--inverse">Button</button>
+    </p>
+
+    <p>
+      <a href="#" class="btn btn--xs">Button</a>
+      <a href="#" class="btn btn--xs btn--primary">Button</a>
+      <a href="#" class="btn btn--xs btn--success">Button</a>
+      <a href="#" class="btn btn--xs btn--warning">Button</a>
+      <a href="#" class="btn btn--xs btn--danger">Button</a>
+      <a href="#" class="btn btn--xs btn--inverse">Button</a>
+    </p>
+
+    <p>
+      <input type="submit" value="Button" class="btn btn--sm">
+      <input type="submit" value="Button" class="btn btn--sm btn--primary">
+      <input type="submit" value="Button" class="btn btn--sm btn--success">
+      <input type="submit" value="Button" class="btn btn--sm btn--warning">
+      <input type="submit" value="Button" class="btn btn--sm btn--danger">
+      <input type="submit" value="Button" class="btn btn--sm btn--inverse">
+    </p>
+
+    <p>
+      <button class="btn btn--sm">Button</button>
+      <button class="btn btn--sm btn--primary">Button</button>
+      <button class="btn btn--sm btn--success">Button</button>
+      <button class="btn btn--sm btn--warning">Button</button>
+      <button class="btn btn--sm btn--danger">Button</button>
+      <button class="btn btn--sm btn--inverse">Button</button>
+    </p>
+
+    <p>
+      <a href="#" class="btn btn--sm">Button</a>
+      <a href="#" class="btn btn--sm btn--primary">Button</a>
+      <a href="#" class="btn btn--sm btn--success">Button</a>
+      <a href="#" class="btn btn--sm btn--warning">Button</a>
+      <a href="#" class="btn btn--sm btn--danger">Button</a>
+      <a href="#" class="btn btn--sm btn--inverse">Button</a>
+    </p>
+
     <p>
       <input type="submit" value="Button" class="btn">
       <input type="submit" value="Button" class="btn btn--primary">
@@ -27,6 +82,60 @@
       <a href="#" class="btn btn--warning">Button</a>
       <a href="#" class="btn btn--danger">Button</a>
       <a href="#" class="btn btn--inverse">Button</a>
+    </p>
+
+    <p>
+      <input type="submit" value="Button" class="btn btn--lg">
+      <input type="submit" value="Button" class="btn btn--lg btn--primary">
+      <input type="submit" value="Button" class="btn btn--lg btn--success">
+      <input type="submit" value="Button" class="btn btn--lg btn--warning">
+      <input type="submit" value="Button" class="btn btn--lg btn--danger">
+      <input type="submit" value="Button" class="btn btn--lg btn--inverse">
+    </p>
+
+    <p>
+      <button class="btn btn--lg">Button</button>
+      <button class="btn btn--lg btn--primary">Button</button>
+      <button class="btn btn--lg btn--success">Button</button>
+      <button class="btn btn--lg btn--warning">Button</button>
+      <button class="btn btn--lg btn--danger">Button</button>
+      <button class="btn btn--lg btn--inverse">Button</button>
+    </p>
+
+    <p>
+      <a href="#" class="btn btn--lg">Button</a>
+      <a href="#" class="btn btn--lg btn--primary">Button</a>
+      <a href="#" class="btn btn--lg btn--success">Button</a>
+      <a href="#" class="btn btn--lg btn--warning">Button</a>
+      <a href="#" class="btn btn--lg btn--danger">Button</a>
+      <a href="#" class="btn btn--lg btn--inverse">Button</a>
+    </p>
+
+    <p>
+      <input type="submit" value="Button" class="btn btn--xl">
+      <input type="submit" value="Button" class="btn btn--xl btn--primary">
+      <input type="submit" value="Button" class="btn btn--xl btn--success">
+      <input type="submit" value="Button" class="btn btn--xl btn--warning">
+      <input type="submit" value="Button" class="btn btn--xl btn--danger">
+      <input type="submit" value="Button" class="btn btn--xl btn--inverse">
+    </p>
+
+    <p>
+      <button class="btn btn--xl">Button</button>
+      <button class="btn btn--xl btn--primary">Button</button>
+      <button class="btn btn--xl btn--success">Button</button>
+      <button class="btn btn--xl btn--warning">Button</button>
+      <button class="btn btn--xl btn--danger">Button</button>
+      <button class="btn btn--xl btn--inverse">Button</button>
+    </p>
+
+    <p>
+      <a href="#" class="btn btn--xl">Button</a>
+      <a href="#" class="btn btn--xl btn--primary">Button</a>
+      <a href="#" class="btn btn--xl btn--success">Button</a>
+      <a href="#" class="btn btn--xl btn--warning">Button</a>
+      <a href="#" class="btn btn--xl btn--danger">Button</a>
+      <a href="#" class="btn btn--xl btn--inverse">Button</a>
     </p>
 
   </div>
