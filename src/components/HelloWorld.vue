@@ -138,6 +138,11 @@
       <a href="#" class="btn btn--xl btn--inverse">Button</a>
     </p>
 
+    <hr class="hr hr--xs">
+    <hr class="hr hr--sm">
+    <hr class="hr">
+    <hr class="hr hr--lg">
+    <hr class="hr hr--xl">
 
     <p>This text is normal.</p>
     <p><strong>This text is strong.</strong></p>
