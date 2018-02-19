@@ -157,6 +157,46 @@
     <h5>Heading 5</h5>
     <h6>Heading 6</h6>
 
+    <form>
+      <div class="form__group">
+        <label class="form__label" for="label">Text</label>
+        <input type="text" class="form__control form__control--text" placeholder="placeholder">
+      </div>
+      <div class="form__group">
+        <label class="form__label form__label--error" for="label">Error</label>
+        <input type="text" class="form__control form__control--text form__control--error" value="Error">
+      </div>
+      <div class="form__group">
+        <label class="form__label form__label--resolved" for="label">Resolved</label>
+        <input type="text" class="form__control form__control--text form__control--resolved" value="Resolved">
+      </div>
+      <div class="form__group">
+        <div class="form__message">This is a message.</div>
+      </div>
+      <div class="form__group">
+        <div class="form__message form__message--error">This is an error message.</div>
+      </div>
+      <div class="form__group">
+        <div class="form__message form__message--resolved">This is a resolved message.</div>
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="label">Password</label>
+        <input type="password" class="form__control form__control--text">
+      </div>
+      <div class="form__group">
+        <label class="form__label" for="label">Select</label>
+        <select class="form__control--select">
+          <option value="">-- Select --</option>
+          <option value="One">One</option>
+          <option value="Two">Two</option>
+          <option value="Three">Three</option>
+        </select>
+      </div>
+      <div class="form__group">
+        <button class="btn btn--primary">Button</button>
+      </div>
+    </form>
+
   </div>
 </template>
 
