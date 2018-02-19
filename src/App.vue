@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <h1>css-layout</h1>
-    <!-- <img class="zomgimage" src="assets/images/logo.png"> -->
+  <div class="app">
     <router-view/>
   </div>
 </template>
@@ -13,7 +11,4 @@ export default {
 </script>
 
 <style scoped>
-  .zomgimage {
-    border: 1px solid #f00;
-  }
 </style>

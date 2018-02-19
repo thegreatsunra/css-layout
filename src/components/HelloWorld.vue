@@ -1,5 +1,6 @@
 <template>
-  <div class="hello">
+  <div class="view">
+    <h1>Hello World</h1>
     <p>{{ msg }}</p>
   </div>
 </template>
